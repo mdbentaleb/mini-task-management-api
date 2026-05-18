@@ -4,8 +4,8 @@ spring:
 
   datasource:
     url: jdbc:postgresql://localhost:5432/tasks_db
-    username: #database name
-    password: #database passwd
+    username: tasks_db #or you can change DB name
+    password: #<database passwd>
 
   sql:
     init:
