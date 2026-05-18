@@ -1,5 +1,7 @@
 # TaskFlow Mini API 🚀
 
+![MVC Pattern and Database Schema Mapping](./assets/mini-task-management-system.png)
+
 A lightweight REST API for Task Management built with Spring Boot, JPA, and PostgreSQL. Designed with clean architecture and industry-standard best practices.
 
 ## 🌟 Features
