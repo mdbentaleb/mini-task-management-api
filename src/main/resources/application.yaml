@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: task-management-api
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/tasks_db
+    username: #database name
+    password: #database passwd
+
+  sql:
+    init:
+      mode: always
+
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format-sql: true
+
+    hibernate:
+      ddl-auto: none
